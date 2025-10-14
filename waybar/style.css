@@ -18,6 +18,7 @@ window#waybar {
   padding: 5px;
 }
 
+
 /* Modules */
 #workspaces button { 
   padding: 0 5px; 
@@ -84,5 +85,5 @@ window#waybar {
   padding: 15px;
   background: #606C38;
   color: #ffcb9b;
-  border-radius: 20px;
+  border-radius: 30px;
 }
