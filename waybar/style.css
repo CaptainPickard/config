@@ -1,0 +1,44 @@
+/* ~/.config/waybar/style.css */
+* {
+  font-family: "Hack Nerd Font", monospace;
+  font-size: 14pt;
+  min-height: 0;
+  margin: 2px;
+  padding: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #cec0b2;
+}
+
+#workspaces {
+  background: #303030;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+/* Modules */
+#workspaces button { 
+  padding: 0 5px; 
+  background: #303030;
+  color: #636363;
+  transition: all 250ms ease-in-out;
+  border-bottom: 3px solid transparent;
+  border: 0px;
+
+}
+#workspaces button.active {
+  color: #ffc58f;
+  background: #505050;
+  min-width: 70px;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+#clock, #cpu, #memory, #network, #backlight, #pulseaudio, #battery, #tray, #window {
+  padding: 15px;
+  background: #303030;
+  color: #ffc58f;
+  border-radius: 30px;
+}
