@@ -38,7 +38,7 @@ end
 function homenet
     sudo systemctl start NetworkManager
     nmcli dev wifi list
-    nmcli dev wifi connect "Winter is Coming" password "Roadapplelucypicklehat922!"
+    nmcli dev wifi connect "Winter is Coming" password "Roadapplelucypicklehat922!" ifname wlan0
 end
 
 function boost
