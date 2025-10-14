@@ -11,6 +11,7 @@ if status is-interactive
     # load your key if not already loaded
     ssh-add -l >/dev/null 2>&1; or ssh-add ~/.ssh/id_ed25519 </dev/null
     # -- end: ssh-agent env --
+    
 
     # Better ls
     alias ls='eza --icons --group-directories-first -1 -lah'
