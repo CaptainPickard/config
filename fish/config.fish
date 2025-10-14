@@ -1,6 +1,11 @@
 source ~/.config/fish/functions/network.fish
 fish_add_path -g /home/nx/.local/bin
 oh-my-posh init fish --config '/home/nx/.cache/oh-my-posh/themes/cloud-native-azure.omp.json' | source
+# -- start: ssh-agent env for fish --
+set -gx SSH_AUTH_SOCK /run/user/(id -u)/ssh-agent.socket
+# load your key if not already loaded
+ssh-add -l >/dev/null 2>&1; or ssh-add ~/.ssh/id_ed25519 </dev/null
+# -- end: ssh-agent env --
 
 if status is-interactive
     command -v direnv &>/dev/null && direnv hook fish | source
@@ -11,7 +16,7 @@ if status is-interactive
     # load your key if not already loaded
     ssh-add -l >/dev/null 2>&1; or ssh-add ~/.ssh/id_ed25519 </dev/null
     # -- end: ssh-agent env --
-    
+
 
     # Better ls
     alias ls='eza --icons --group-directories-first -1 -lah'
