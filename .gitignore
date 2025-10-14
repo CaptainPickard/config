@@ -1,0 +1,24 @@
+# Ignore everything recursively
+**
+
+# Keep this file itself
+!.gitignore
+
+# Allow only these config trees
+!fastfetch/
+!fastfetch/**
+
+!hypr/
+!hypr/**
+
+!fish/
+!fish/**
+
+!kitty/
+!kitty/**
+
+!waybar/
+!waybar/**
+
+!wofi/
+!wofi/**

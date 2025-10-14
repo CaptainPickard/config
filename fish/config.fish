@@ -18,7 +18,6 @@ if status is-interactive
     set -g fish_cursor_replace underline
     set -g fish_cursor_visual block
 
-
     # Abbrs
     abbr gd 'git diff'
     abbr ga 'git add .'
