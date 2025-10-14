@@ -50,7 +50,7 @@
     "format-icons": [
       "▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"
     ],
-    "on-click-right": "gnome-system-monitor",
+    "on-click-right": "gnome-system-monitor"
   },
 
   "memory": {
@@ -84,7 +84,7 @@
 	"on-update": "",
 	"on-scroll-up": "$HOME/.config/hypr/scripts/Brightness.sh --inc",
 	"on-scroll-down": "$HOME/.config/hypr/scripts/Brightness.sh --dec",
-	"smooth-scrolling-threshold": 1,
+	"smooth-scrolling-threshold": 1
   },
 
   "pulseaudio": {

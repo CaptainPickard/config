@@ -36,9 +36,52 @@ window#waybar {
   padding: 1px;
 }
 
-#clock, #cpu, #memory, #network, #backlight, #pulseaudio, #battery, #tray, #window {
+#clock {
+  padding: 15px;
+  background: #353535;
+  color: #ffcb9b;
+  border-radius: 30px;
+}
+
+
+#network {
+  padding: 15px;
+  background: #424242;
+  color: #ffbf83;
+  border-radius: 30px;
+}
+
+#battery {
+  padding: 15px;
+  background: #474747;
+  color: #fdb470;
+  border-radius: 30px;
+}
+
+#pulseaudio {
+  padding: 15px;
+  background: #4d4d4d;
+  color: #fcab60;
+  border-radius: 30px;
+}
+
+#memory {
+  padding: 15px;
+  background: #5e5e5e;
+  color: #ffa653;
+  border-radius: 30px;
+}
+
+#cpu {
+  padding: 15px;
+  background: #646464;
+  color: #ffa047;
+  border-radius: 30px;
+}
+
+#window {
   padding: 15px;
   background: #303030;
   color: #ffc58f;
-  border-radius: 30px;
+  border-radius: 20px;
 }

@@ -8,7 +8,6 @@ ssh-add -l >/dev/null 2>&1; or ssh-add ~/.ssh/id_ed25519 </dev/null
 # -- end: ssh-agent env --
 
 
-
 if status is-interactive
     command -v direnv &>/dev/null && direnv hook fish | source
     command -v zoxide &>/dev/null && zoxide init fish --cmd cd | source
