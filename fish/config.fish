@@ -7,6 +7,8 @@ set -gx SSH_AUTH_SOCK /run/user/(id -u)/ssh-agent.socket
 ssh-add -l >/dev/null 2>&1; or ssh-add ~/.ssh/id_ed25519 </dev/null
 # -- end: ssh-agent env --
 
+
+
 if status is-interactive
     command -v direnv &>/dev/null && direnv hook fish | source
     command -v zoxide &>/dev/null && zoxide init fish --cmd cd | source
@@ -23,6 +25,7 @@ if status is-interactive
     alias vim='nvim .'
     alias code='code .'
     alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+    alias pushdot='git -C ~/.config push'
 
     # Cursor per mode (these are Kitty-friendly keywords)
     set -g fish_cursor_default block blink

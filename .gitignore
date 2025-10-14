@@ -22,3 +22,6 @@
 
 !wofi/
 !wofi/**
+
+!btop/
+!btop/**
