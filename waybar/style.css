@@ -13,7 +13,7 @@ window#waybar {
 }
 
 #workspaces {
-  background: #606C38;
+  background: #0F0F0F;
   border-radius: 30px;
   padding: 5px;
 }
@@ -22,7 +22,7 @@ window#waybar {
 /* Modules */
 #workspaces button { 
   padding: 0 5px; 
-  background: #606C38;
+  background: #0F0F0F;
   color: #ffcb9b;
   transition: all 250ms ease-in-out;
   border-bottom: 3px solid transparent;
@@ -31,7 +31,7 @@ window#waybar {
 
 #workspaces button.active {
   color: #ffcb9b;
-  background: #BC6C25;
+  background: #3f3f3f;
   min-width: 70px;
   border-radius: 30px;
   padding: 1px;
@@ -39,7 +39,7 @@ window#waybar {
 
 #clock {
   padding: 15px;
-  background: #BC6C25;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
@@ -47,42 +47,42 @@ window#waybar {
 
 #network {
   padding: 15px;
-  background: #BC6C25;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
 
 #battery {
   padding: 15px;
-  background: #BC6C25;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
 
 #pulseaudio {
   padding: 15px;
-  background: #BC6C25;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
 
 #memory {
   padding: 15px;
-  background: #606C38;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
 
 #cpu {
   padding: 15px;
-  background: #606C38;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
 
 #window {
   padding: 15px;
-  background: #606C38;
+  background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
 }
