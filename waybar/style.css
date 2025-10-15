@@ -27,7 +27,6 @@ window#waybar {
   transition: all 250ms ease-in-out;
   border-bottom: 3px solid transparent;
   border: 0px;
-
 }
 
 #workspaces button.active {
