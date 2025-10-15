@@ -19,6 +19,30 @@ window#waybar {
 }
 
 
+.modules-center {
+  background: #0F0F0F;
+  border-radius: 0 0 30px 30px;
+  margin-top: -5px;
+  padding-top: 5px;
+}
+
+
+.modules-right {
+  background: #0F0F0F;
+  border-radius: 0 0 30px 30px;
+  margin-top: -5px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.modules-left {
+  background: #0F0F0F;
+  border-radius: 0 0 30px 30px;
+  margin-top: -5px;
+  padding-top: 5px;
+}
+
+
 /* Modules */
 #workspaces button { 
   padding: 0 5px; 
@@ -30,7 +54,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  color: #ffcb9b;
+  color: #ff8a1d;
   background: #3f3f3f;
   min-width: 70px;
   border-radius: 30px;
@@ -40,7 +64,7 @@ window#waybar {
 #clock {
   padding: 15px;
   background: #0F0F0F;
-  color: #ffcb9b;
+  color: #ff8a1d;
   border-radius: 30px;
 }
 
@@ -48,21 +72,21 @@ window#waybar {
 #network {
   padding: 15px;
   background: #0F0F0F;
-  color: #ffcb9b;
+  color: #ffa047;
   border-radius: 30px;
 }
 
 #battery {
   padding: 15px;
   background: #0F0F0F;
-  color: #ffcb9b;
+  color: #ffb26a;
   border-radius: 30px;
 }
 
 #pulseaudio {
   padding: 15px;
   background: #0F0F0F;
-  color: #ffcb9b;
+  color: #ffc58e;
   border-radius: 30px;
 }
 
