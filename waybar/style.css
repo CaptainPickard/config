@@ -13,7 +13,7 @@ window#waybar {
 }
 
 #workspaces {
-  background: #0F0F0F;
+  background: #1d1d1d;
   border-radius: 30px;
   padding: 5px;
 }
@@ -21,32 +21,27 @@ window#waybar {
 
 .modules-center {
   background: #0F0F0F;
-  border-radius: 0 0 30px 30px;
-  margin-top: -5px;
-  padding-top: 5px;
+  border-radius: 30px;
 }
 
 
 .modules-right {
   background: #0F0F0F;
-  border-radius: 0 0 30px 30px;
-  margin-top: -5px;
-  padding-top: 5px;
   padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
 }
 
 .modules-left {
   background: #0F0F0F;
-  border-radius: 0 0 30px 30px;
-  margin-top: -5px;
-  padding-top: 5px;
+  border-radius: 30px;
 }
 
 
 /* Modules */
 #workspaces button { 
   padding: 0 5px; 
-  background: #0F0F0F;
+  background: transparent;
   color: #ffcb9b;
   transition: all 250ms ease-in-out;
   border-bottom: 3px solid transparent;
