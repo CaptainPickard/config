@@ -61,6 +61,7 @@ window#waybar {
   background: #0F0F0F;
   color: #ffcb9b;
   border-radius: 30px;
+  border-left: 1px;
 }
 
 
