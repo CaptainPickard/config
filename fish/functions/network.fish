@@ -36,12 +36,14 @@ function connect-net
 end
 
 function homenet
+    nmcli connection delete id "Winter is Coming"
     sudo systemctl start NetworkManager
     nmcli dev wifi list
-    nmcli dev wifi connect "Winter is Coming" password "Roadapplelucypicklehat922!" ifname wlan0
+    nmcli dev wifi connect "Winter is Coming" password "Roadapplelucypicklehat922!"
 end
 
 function boost
+    nmcli connection delete id "Boost"
     sudo systemctl start NetworkManager
     nmcli dev wifi list
     nmcli dev wifi connect Boost password "#AgentBoost1"
